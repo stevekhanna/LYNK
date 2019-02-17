@@ -1,3 +1,0 @@
-# TheCompillers
-
-Hello World
