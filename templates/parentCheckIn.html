@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <nav class="navbar navbar-expand-sm bg-light">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="/">Saint Generic JH</a>
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/parentAttendance">Attendance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/parentFeedback">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/parentGrades">Grades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/parentAgenda">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/parentCheckIn">Check-In/Bus & School</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/parentConsent">Consent Form</a>
+                </li>
+            </ul>
+    </nav>
+
+    <h2>CheckIn</h2>
+    <p>{{ feedback.student.name }}</p>
+
+    <table>
+
+    {% for feedback in feedback %}
+        <tr>
+            <th>{{ feedback.date }}</th>
+            <th>{{ feedback.comment }}</th>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock content %}

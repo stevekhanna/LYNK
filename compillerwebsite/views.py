@@ -40,7 +40,7 @@ def agenda(request):
         'agenda': Student.objects.all()
     }
 
-    return render(request, '../templates/parentAgenda.html', context)
+    return render(request, 'parentAgenda.html', context)
 
 
 def student_feedback(request, id):
