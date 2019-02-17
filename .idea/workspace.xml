@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4938a011-da1d-410a-9def-f17196cbd15a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/compillerwebsite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/compillerwebsite/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compillerwebsite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/compillerwebsite/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compillerwebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/compillerwebsite/urls.py" afterDir="false" />
@@ -14,6 +15,10 @@
       <change beforePath="$PROJECT_DIR$/templates/parentFeedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parentFeedback.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/parentGrades.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parentGrades.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/parentHome.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parentHome.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/parentGrades.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parentGrades.html" afterDir="false" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,8 +86,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/parentGrades.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="240">
               <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+=======
+            <state relative-caret-position="188">
+              <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/parentGrades.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="30" column="93" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/parentFeedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
             </state>
           </provider>
         </entry>
@@ -102,6 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/parentHome.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="225">
               <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
@@ -127,6 +156,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+=======
+            <state relative-caret-position="150">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="51" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
             </state>
           </provider>
         </entry>
@@ -145,6 +178,9 @@
     <findStrings>
       <find>NK</find>
       <find>card</find>
+      <find>hover</find>
+      <find>opacity</find>
+      <find>padding-top</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -166,6 +202,13 @@
         <option value="$PROJECT_DIR$/templates/style.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/templates/parentAgenda.html" />
+        <option value="$PROJECT_DIR$/templates/parentAnnouncements.html" />
+        <option value="$PROJECT_DIR$/templates/parentFeedback.html" />
+        <option value="$PROJECT_DIR$/templates/parentAttendance.html" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
         <option value="$PROJECT_DIR$/TheCompillers/settings.py" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/parentAnnouncements.html" />
@@ -173,11 +216,16 @@
         <option value="$PROJECT_DIR$/compillerwebsite/models.py" />
         <option value="$PROJECT_DIR$/compillerwebsite/admin.py" />
         <option value="$PROJECT_DIR$/templates/parentHome.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/templates/parentAttendance.html" />
         <option value="$PROJECT_DIR$/templates/parentFeedback.html" />
         <option value="$PROJECT_DIR$/templates/parentGrades.html" />
         <option value="$PROJECT_DIR$/templates/parentAgenda.html" />
         <option value="$PROJECT_DIR$/compillerwebsite/urls.py" />
+=======
+        <option value="$PROJECT_DIR$/templates/parentGrades.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
       </list>
     </option>
   </component>
@@ -355,13 +403,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8852000" />
+    <option name="totallyTimeSpent" value="9923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17739628" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,8 +421,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3819277" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32913166" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,6 +492,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/TheCompillers/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -452,12 +510,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TheCompillers/settings.py">
+=======
+    <entry file="file://$PROJECT_DIR$/templates/parentAttendance.html">
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/TheCompillers/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -469,6 +531,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compillerwebsite/apps.py">
+=======
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py">
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
@@ -575,20 +640,46 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/templates/parentAgenda.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/templates/parentFeedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/parentHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/parentGrades.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="30" column="93" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compillerwebsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="135">
           <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="188">
+          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+>>>>>>> 0dca483110cfdedda9ca84814ee98e23abf2fe9f
         </state>
       </provider>
     </entry>
