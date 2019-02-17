@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-#from .models import Member, Research, Publication, NewsArticle, Opportunity, Style
+from .models import Student, NewsArticle, Assignment, Style
 
 
 def home(request):
