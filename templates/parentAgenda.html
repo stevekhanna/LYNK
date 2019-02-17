@@ -42,13 +42,14 @@
         <span onclick="newElement()" class="addBtn" id="addButton">Add</span>
     </div>
 
-    <ul id="myUL">
-        <li>Fill out agenda form</li>
-        <li class="checked">Finish fraction homework</li>
-    </ul>
+    <div class="agenda-class">
+        <ul id="myUL">
+
+        </ul>
+    </div>
     <script>
         // Create a "close" button and append it to each list item
-        var myNodelist = document.getElementsByTagName("LI");
+        var myNodelist = document.getElementsByTagName(".agenda-class");
         var i;
         for (i = 0; i < myNodelist.length; i++) {
             var span = document.createElement("SPAN");
@@ -69,7 +70,7 @@
         }
 
         // Add a "checked" symbol when clicking on a list item
-        var list = document.querySelector('ul');
+        var list = document.querySelector('.agenda-class');
         list.addEventListener('click', function(ev) {
             if (ev.target.tagName === 'LI') {
                 ev.target.classList.toggle('checked');
