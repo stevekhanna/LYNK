@@ -25,9 +25,16 @@ header h1{
     color: darkslateblue;
 }
 
+h2{
+    padding-top:2%;
+    text-align:center;
+}
+
+
 header a:hover{
     text-decoration: none;
 }
+
 
 .navbar-brand{
     text-decoration: none;
@@ -39,7 +46,7 @@ header a:hover{
     color: black;
 }
 .navbar-nav{
-    margin-left: 15%;
+    margin-left: 23%;
 }
 
 .nav-item a{
@@ -65,292 +72,285 @@ footer{
 }
 
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
-
+/*
 button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
 button:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
-
+*/
 .cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
 }
 
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    flex: 1;
+}
+.card a{
+
+    text-decoration: none;
 }
 
+
 .title {
-  color: grey;
-  font-size: 18px;
+    color: grey;
+    font-size: 18px;
+}
+
+i {
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    color: white;
+    background-color: darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
 }
 
-button:hover, a:hover {
-  opacity: 0.7;
+button:hover{
+    text-decoration: none;
+    opacity: 0.7;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  border: 1px solid #ddd;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
 }
 
 th, td {
-  text-align: left;
-  padding: 16px;
+    text-align: left;
+    padding: 16px;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2
+    background-color: #f2f2f2
 }
 
 .tab {
- overflow: hidden;
- background-color: #ECECEC;
+    overflow: hidden;
+    background-color: #ECECEC;
 }
 
 .tab a {
- float: right;
- color: black;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
- font-size: 13px;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
 }
 
 .tab a:hover {
- background-color: #555;
+    background-color: #555;
 }
 
 .dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+    background-color: darkslateblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+    background-color: #2980B9;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
-
+/*
 body {
-  margin: 0;
-  min-width: 250px;
+    margin: 0;
+    min-width: 250px;
 }
 
-/* Include the padding and border in an element's total width and height */
+ Include the padding and border in an element's total width and height
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-/* Remove margins and padding from the list */
+/* Remove margins and padding from the list
 ul {
-  margin: 0;
-  padding: 0;
-}
+    margin: 0;
+    padding: 0;
+}*/
 
-/* Style the list items */
+/*Style the list items*/
+/*
 ul li {
-  cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
-  list-style-type: none;
-  background: #eee;
-  font-size: 18px;
-  transition: 0.2s;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
 
-  /* make the list items unselectable */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    /* make the list items unselectable
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
+/* Set all odd list items to a different color (zebra-stripes)
 ul li:nth-child(odd) {
-  background: #f9f9f9;
+    background: #f9f9f9;
 }
 
-/* Darker background-color on hover */
+/* Darker background-color on hover
 ul li:hover {
-  background: #ddd;
+    background: #ddd;
 }
-
+*/
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #888;
-  color: #fff;
-  text-decoration: line-through;
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
 }
 
 /* Add a "checked" mark when clicked on */
 ul li.checked::before {
-  content: '';
-  position: absolute;
-  border-color: #fff;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  top: 10px;
-  left: 16px;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 7px;
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
 }
 
 /* Style the close button */
 .close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
 }
 
 .close:hover {
-  background-color: #f44336;
-  color: white;
-}
-
-/* Style the header */
-.header {
-  background-color: #050100;
-  padding: 30px 40px;
-  color: white;
-  text-align: center;
-}
-
-/* Clear floats after the header */
-.header:after {
-  content: "";
-  display: table;
-  clear: both;
+    background-color: #f44336;
+    color: white;
 }
 
 /* Style the input */
 input {
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  width: 75%;
-  padding: 10px;
-  float: left;
-  font-size: 16px;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
 }
 
 /* Style the "Add" button */
 .addBtn {
-  padding: 10px;
-  width: 25%;
-  background: #d9d9d9;
-  color: #555;
-  float: left;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0;
-  margin: 0 auto;
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    margin: 0 auto;
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+    background-color: #bbb;
 }
 
 #addButton {
-  text-align: center;
-  margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
 }
-
-
