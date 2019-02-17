@@ -113,7 +113,6 @@ button:hover {
     flex: 1;
 }
 .card a{
-
     text-decoration: none;
 }
 
@@ -153,8 +152,8 @@ button {
 }
 
 button:hover{
+    background-color: #2b2453;
     text-decoration: none;
-    opacity: 0.7;
 }
 
 table {
@@ -201,7 +200,7 @@ tr:nth-child(even) {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #2b2453;
 }
 
 .dropdown {
