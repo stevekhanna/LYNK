@@ -9,9 +9,8 @@
             <h1>{{ student.name }}</h1>
             <p>Sunshine Elementary</p>
             <p><a href="/parentAttendance"><button>Attendance</button></a></p>
-            <p><a href="/parentFeedback"><button>Feedback</button></a></p>
-            <p><a href="/parentGrades"><button>Grades</button></a></p>
-            <p><button>Announcements</button></p>
+            <p><a href="/student_feedback/{{ student.id }}"><button>Feedback</button></a></p>
+            <p><a href="/student_grade/{{ student.id }}"><button>Grades</button></a></p>
             <p><button>Agenda</button></p>
             <p><button>Check-In/Bus and School</button></p>
         </div>

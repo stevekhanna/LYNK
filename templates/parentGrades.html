@@ -16,9 +16,6 @@
                     <a class="nav-link" href="/parentGrades">Grades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/parentAnnouncements">Announcements</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="/parentAgenda">Agenda</a>
                 </li>
             </ul>
@@ -35,6 +32,11 @@
             <a href="#English">English</a>
         </div>
     </div>
+
+    {% for grades in grades %}
+        {{ grades.assignment.title }}
+        {{ grades.letter_grade }}
+    {% endfor %}
 
     <script>
         /* When the user clicks on the button,

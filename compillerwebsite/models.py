@@ -3,7 +3,7 @@ from django.db import models
 
 class Student(models.Model):
     name = models.CharField(max_length=100)
-    grade = models.CharField(max_length=1000)
+    level = models.CharField(max_length=1000)
     phone = models.CharField(max_length=100, blank=True)
     address = models.CharField(max_length=1000, blank=True)
     bio = models.TextField()
@@ -12,15 +12,13 @@ class Student(models.Model):
         return self.name
 
 
-class NewsArticle(models.Model):
-    title = models.CharField(max_length=1000)
-    date = models.DateField(auto_now=False, auto_now_add=False, null=True)
-    summary = models.CharField(max_length=1000)
-    body = models.TextField()
-    link = models.URLField(max_length=200, blank=True, null=True)
+class Feedback(models.Model):
+    student = models.ForeignKey(Student, on_delete=models.CASCADE)
+    date = models.DateField(auto_now=True)
+    comment = models.TextField(max_length=1000)
 
     def __str__(self):
-        return self.title
+        return self.student.name
 
 
 class Assignment(models.Model):
@@ -32,3 +30,22 @@ class Assignment(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Grade(models.Model):
+    assignment = models.ForeignKey(Assignment, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, on_delete=models.CASCADE)
+
+    ASSIGNMENT_GRADES = (
+        ('a+', "A+"), ('a', "A"), ('a-', "A-"),
+        ('b+', "B+"), ('b', "B"), ('b-', "B-"),
+        ('c+', "C+"), ('c', "C"), ('c-', "C-"),
+        ('d+', "D+"), ('d', "D"), ('d-', "D-"),
+        ('f', "F")
+    )
+
+    points = models.FloatField()
+    letter_grade = models.CharField(choices=ASSIGNMENT_GRADES, max_length=3, default="A+")
+
+    def __str__(self):
+        return self.letter_grade

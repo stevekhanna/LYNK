@@ -16,33 +16,21 @@
                     <a class="nav-link" href="/parentGrades">Grades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/parentAnnouncements">Announcements</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="/parentAgenda">Agenda</a>
                 </li>
             </ul>
     </nav>
 
     <h2>Feedback</h2>
-    <p>John Doe</p>
+    <p>{{ feedback.student.name }}</p>
 
     <table>
+
+    {% for feedback in feedback %}
         <tr>
-            <th>Date</th>
-            <th>Comment</th>
+            <th>{{ feedback.date }}</th>
+            <th>{{ feedback.comment }}</th>
         </tr>
-        <tr>
-            <td>January 16 2019</td>
-            <td>Blah blah blah</td>
-        </tr>
-        <tr>
-            <td>February 11 2019</td>
-            <td>More comments</td>
-        </tr>
-        <tr>
-            <td>February 29 2019</td>
-            <td>Some shit</td>
-        </tr>
+    {% endfor %}
     </table>
 {% endblock content %}

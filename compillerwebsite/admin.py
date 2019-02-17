@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import Student, NewsArticle, Assignment
+from .models import Student, Assignment, Feedback, Grade
 
 admin.site.register(Student)
-admin.site.register(NewsArticle)
 admin.site.register(Assignment)
+admin.site.register(Feedback)
+admin.site.register(Grade)

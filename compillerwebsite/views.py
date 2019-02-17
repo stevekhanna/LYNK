@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from .models import Student, NewsArticle, Assignment
+from .models import Student, Assignment, Feedback, Grade
 
 
 def home(request):
@@ -35,17 +35,29 @@ def grades(request):
     return render(request, '../templates/parentGrades.html', context)
 
 
-def announcements(request):
-    context = {
-        'announcement': NewsArticle.objects.first()
-    }
-
-    return render(request, '../templates/parentAnnouncements.html', context)
-
-
 def agenda(request):
     context = {
         'agenda': Student.objects.all()
     }
 
     return render(request, '../templates/parentAgenda.html', context)
+
+
+def student_feedback(request, id):
+    feedbacks = Feedback.objects.filter(id=id)
+
+    context = {
+        'feedback': feedbacks
+    }
+
+    return render(request, 'parentFeedback.html', context)
+
+
+def student_grades(request, id):
+    grades = Grade.objects.filter(id=id)
+
+    context = {
+        'grades': grades
+    }
+
+    return render(request, 'parentGrades.html', context)
