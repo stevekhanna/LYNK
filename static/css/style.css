@@ -341,14 +341,9 @@ input {
     display: flex;
     flex-direction: row;
     padding:10%;
-    margin: 10%:
+    margin: 10%;
     align-items: flex-start;
 }
-
-
-
-
-
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
