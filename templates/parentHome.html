@@ -3,6 +3,7 @@
 {% block content %}
 
     <h2>User Profile Card</h2>
+    <div class ="card-deck">
     {% for student in all_students %}
         <div class="card">
             <h1>{{ student.name }}</h1>
@@ -15,4 +16,6 @@
             <p><button>Check-In/Bus and School</button></p>
         </div>
   {% endfor %}
+    </div>
+
 {% endblock content %}

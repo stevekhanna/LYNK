@@ -108,8 +108,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
-    margin: auto;
-    max-width: 300px;
+    max-width: 100%;
     text-align: center;
     flex: 1;
 }
