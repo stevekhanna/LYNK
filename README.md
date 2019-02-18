@@ -1,5 +1,5 @@
 # TheCompillers
-This is a hackathon project using pycharm and django, we had 24 hours comeup with a project from scratch and present to judge
+This is a hackathon project using pycharm and django, we had 24 hours comeup with a project from scratch and present it to judges
 
 Our project is a web-based school management system that connects students, parents and teachers, eliminating the need of paper consent forms and agendas. It allows for a deeper connection to the parent and teacher such as being able to see feedback and give feedback to the teacher. 
 
