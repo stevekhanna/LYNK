@@ -4,7 +4,7 @@
 
 **This is a hackathon project using pycharm and django. We had 24 hours come up with a project from scratch and present it to judges.**
 
-**Contributers: Issack John, Steve Khanna, Daniel Nwaroh, Jacob Hazen, and Montek Parmar**
+**Contributors: Issack John, Steve Khanna, Daniel Nwaroh, Jacob Hazen, and Montek Parmar**
 
 **Tools & Environments:** We used Python,CSS,HTML, and Javascript, also using databases.
 We worked off of 2 main computers, working on backend and frontend.
